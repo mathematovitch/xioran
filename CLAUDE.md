@@ -1,7 +1,11 @@
 # CLAUDE.md
 
-Site vitrine du projet musical **XIORAN** (noise, chiptune, LSDj, Strudel,
-pédale), servi par GitHub Pages.
+Site vitrine du projet musical **XIORAN** (noise, harsh noise, LSDj,
+Strudel), servi par GitHub Pages.
+
+**Le site est entièrement en anglais** (`<html lang="en">`, titres, textes,
+mentions). Seuls ce fichier et les échanges avec l'utilisateur restent en
+français.
 
 ## Projet à part
 
@@ -27,15 +31,22 @@ le même compte GitHub ne pose pas de problème (choix de l'utilisateur,
 - JavaScript réduit au minimum : un petit script en bas de la page d'album
   (une seule piste à la fois, enchaînement automatique). La page doit rester
   utilisable sans JavaScript.
-- Logo : « XIORAN » en ASCII art (police figlet « THIS »), en rouge `#b00000`
+- Logo : « XIORAN » en ASCII art (police figlet « ThiS! »), en rouge `#b00000`
   dans un `<pre>` sur l'accueil.
 
 ## Arborescence
 
-- `index.html` : accueil (logo, liste des sorties, liens).
+- `index.html` : accueil (logo, puis les sections *releases*, *live*
+  (dates de concerts, à venir et passés), *code* (patterns Strudel
+  jouables, avec leur source), *game boy* (morceaux LSDj dans un émulateur,
+  saves à télécharger), *credits*).
+  Toutes encore vides sauf *credits*.
+- Ne jamais mettre la ROM de LSDj sur le site (logiciel payant, licence qui
+  interdit de le redistribuer).
 - `ID-SORTIE/index.html` : une page par sortie (pochette, fiche, pistes).
-  L'exemple actuel `lfsf-net048/` (album d'un autre artiste) ne sert qu'à la
-  maquette.
+  Aucune pour l'instant ; la maquette de page d'album (lecteurs + script
+  d'enchaînement) est dans le commit `b6c0e94`, dossier `lfsf-net048/`
+  (album d'un autre artiste, retiré ensuite).
 
 ## Aperçu local et déploiement
 
