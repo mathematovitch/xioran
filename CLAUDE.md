@@ -38,11 +38,15 @@ le même compte GitHub ne pose pas de problème (choix de l'utilisateur,
 
 - `index.html` : accueil (logo, puis les sections *releases*, *live*
   (dates de concerts, à venir et passés), *code* (patterns Strudel
-  jouables, avec leur source), *game boy* (morceaux LSDj dans un émulateur,
-  saves à télécharger), *credits*).
+  jouables, avec leur source), *game boy* (morceaux LSDj enregistrés en
+  audio, mêmes lecteurs `<audio>` que les sorties, `.sav` à télécharger),
+  *credits*).
   Toutes encore vides sauf *credits*.
 - Ne jamais mettre la ROM de LSDj sur le site (logiciel payant, licence qui
   interdit de le redistribuer).
+- Pas d'émulateur Game Boy : essayé le 2026-10-28 avec lsdpack (ROM player
+  sans le code de LSDj) + binjgb, abandonné (pas de son correct ni d'écran
+  dans la maquette, trop lourd pour le gain face à de simples fichiers audio).
 - `ID-SORTIE/index.html` : une page par sortie (pochette, fiche, pistes).
   Aucune pour l'instant ; la maquette de page d'album (lecteurs + script
   d'enchaînement) est dans le commit `b6c0e94`, dossier `lfsf-net048/`
